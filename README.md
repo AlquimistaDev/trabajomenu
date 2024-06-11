@@ -16,12 +16,7 @@ El proyecto se utiliza junto con MySql. A continuación, se detallan los pasos p
 
 1. Clona este repositorio en tu máquina local.
 	
-	crear carpeta local "trabajomenu" e inicializar en git batch:
 
-	`git init`
-	
-	despues: 
-	
    `git clone https://github.com/AlquimistaDev/trabajomenu.git`
 
 2. Para BD : `mysql -u root -p 1234`
