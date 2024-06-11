@@ -37,4 +37,5 @@ Se adjunta una [carpeta](./examples/) con ejemplos.
 ## Ejecución de Pruebas
 
 1. 
+Esta es una línea de prueba añadida para confirmar los cambios.
 
