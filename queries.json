@@ -1,0 +1,19 @@
+{
+    "listar_usuarios"           : "SELECT * FROM hotel_mpc.tbl_usuario",
+    "listar_comunas"            : "SELECT * FROM hotel_mpc.tbl_comunas",
+    "listar_estados_habitacion" : "SELECT * FROM hotel_mpc.tbl_estado_habitacion",
+    "listar_estado_reserva"     : "SELECT * FROM hotel_mpc.tbl_estado_resverva",
+    "listar_habitaciones"       : "SELECT * FROM hotel_mpc.tbl_habitacion",
+    "listar_orientacion"        : "SELECT * FROM hotel_mpc.tbl_orientacion",
+    "listar_pasajeros"          : "SELECT * FROM hotel_mpc.tbl_pasajero",
+    "listar_provincias"         : "SELECT * FROM hotel_mpc.tbl_provincias",
+    "listar_regiones"           : "SELECT * FROM hotel_mpc.tbl_region",
+    "listar_reservas"           :"SELECT * FROM hotel_mpc.tbl_reserva",
+    "listar_reserva_pasajeros"  : "SELECT * FROM hotel_mpc.tbl_reserva_pasajero",
+    "listar_tipo_cama"          : "SELECT * FROM hotel_mpc.tbl_tipo_cama",
+    "listar_usuarios_admin"     : "SELECT * FROM hotel_mpc.tbl_usuario_admin",
+
+    "buscar_usuario"            : "SELECT * FROM hotel_mpc.tbl_usuario WHERE id_usuario = %s",
+    "actualizar_usuario"        : "UPDATE hotel_mpc.tbl_usuario SET nombre = %s, apellido = %s WHERE id_usuario = %s",
+    "eliminar_usuario"          : "DELETE FROM hotel_mpc.tbl_usuario WHERE id_usuario = %s"
+}
